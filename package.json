@@ -1,0 +1,17 @@
+{
+  "name": "movies-mongo-db",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":" node --watch --env-file=.env index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  }
+}
